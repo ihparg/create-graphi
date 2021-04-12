@@ -1,0 +1,44 @@
+{
+  "title": "hello",
+  "method": "GET",
+  "path": "/api/hello",
+  "routeParams": {
+    "type": "object",
+    "properties": {}
+  },
+  "resolve": "example.hello",
+  "responseBody": {
+    "type": "object",
+    "properties": {
+      "data": {
+        "required": false,
+        "type": "string"
+      },
+      "code": {
+        "required": true,
+        "type": "integer",
+        "defaultValue": "200"
+      }
+    }
+  },
+  "refs": [],
+  "id": "0e2adfe566",
+  "fullPath": "GET:/api/hello",
+  "tag": "",
+  "requestBody": {
+    "type": "object",
+    "properties": {}
+  },
+  "queryString": {
+    "type": "object",
+    "properties": {}
+  },
+  "requestHeaders": {
+    "type": "object",
+    "properties": {}
+  },
+  "responseHeaders": {
+    "type": "object",
+    "properties": {}
+  }
+}

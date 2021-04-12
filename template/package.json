@@ -1,0 +1,18 @@
+{
+  "name": "create-graphi-app",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "bootstrap": "./scripts/bootstrap.sh",
+    "dev-server": "./scripts/dev-server.sh",
+    "dev-web": "./scripts/dev-web.sh",
+    "lint": "./scripts/lint.sh"
+  }
+}

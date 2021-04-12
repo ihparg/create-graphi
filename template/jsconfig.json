@@ -1,0 +1,11 @@
+{
+  "include": [
+    "**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@": ["packages/dev_web/src/*"]
+    }
+  }
+}

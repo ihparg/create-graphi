@@ -1,0 +1,33 @@
+{
+  "title": "user",
+  "method": "GET",
+  "path": "/getUser",
+  "routeParams": {
+    "type": "object",
+    "properties": {}
+  },
+  "responseBody": {
+    "type": "object",
+    "properties": {
+      "data": {
+        "required": false,
+        "type": "ref",
+        "properties": {
+          "_id": {
+            "ref": "user._id"
+          },
+          "name": {
+            "required": false,
+            "ref": "user.name"
+          }
+        },
+        "ref": "user"
+      }
+    }
+  },
+  "refs": [
+    "be41255421"
+  ],
+  "id": "2d4b68698f",
+  "fullPath": "GET:/getuser"
+}

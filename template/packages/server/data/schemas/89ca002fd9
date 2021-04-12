@@ -1,0 +1,20 @@
+{
+  "content": {
+    "type": "object",
+    "properties": {
+      "_id": {
+        "required": true,
+        "index": false,
+        "type": "uuid"
+      },
+      "name": {
+        "required": false,
+        "index": false,
+        "type": "string"
+      }
+    }
+  },
+  "tag": "",
+  "name": "user",
+  "id": "89ca002fd9"
+}
